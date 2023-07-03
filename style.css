@@ -1,0 +1,38 @@
+.accordion .accordion-item {
+  margin-bottom: 20px;
+}
+.accordion .accordion-item .accordion-button {
+  border: 2px solid gray;
+  box-shadow: none;
+  background-color: unset;
+  color: unset;
+}
+.accordion .accordion-item:checked {
+  border: unset;
+}
+.accordion .accordion-item .accordion-collapse {
+  z-index: 10;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body {
+  padding: 0;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table {
+  width: 100%;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table thead {
+  background-color: rgb(61, 59, 59);
+  color: white;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table thead th {
+  padding: 20px 10px;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table tbody tr {
+  border-bottom: 1px solid red;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table tbody tr:last-child {
+  border-bottom: unset;
+}
+.accordion .accordion-item .accordion-collapse .accordion-body table tbody tr td {
+  padding: 20px 10px;
+  color: gray;
+}/*# sourceMappingURL=style.css.map */
